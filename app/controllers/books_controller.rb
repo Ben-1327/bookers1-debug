@@ -14,6 +14,8 @@ class BooksController < ApplicationController
     @book = Book.find(params[:id])
   end
 
+  
+
   # GET /books/1/edit
   def edit
     @book = Book.find(params[:id])
